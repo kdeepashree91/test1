@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>DEEPASHREE / Visual Designer</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        #actions {
+            position: fixed;
+            top: 73px;
+            left: 30px;
+            z-index: 99999;
+        }
+        
+        #actions li {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 7px;
+            margin: 2px;
+            color: #ccc;
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        #actions li:hover {
+            color: #fff;
+            background: #81A140;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <a data-menuanchor="homePage" href="#homePage" class="homePageNav">
+        <div class="iamBlock"></div>
+    </a>
+    <div id="myContainer">
+         <div id="tooltp" class="section">
+            <section class="clearfix vertical-center">
+                <span class="tip">Find . Select . Drag</span>
+                <div id="main">
+                    <div id="x8"></div>
+                    <div id="grid">
+                        <div class="box animationOne" data-word="Branding">B</div>
+                        <div class="box animationOne" data-word="Branding">R</div>
+                        <div class="box animationOne" data-word="Branding">A</div>
+                        <div class="box animationOne" data-word="Branding">N</div>
+                        <div class="box animationOne" data-word="Branding">D</div>
+                        <div class="box animationOne" data-word="Branding">I</div>
+                        <div class="box animationOne" data-word="Branding">N</div>
+                        <div class="box animationOne" data-word="Branding">G</div>
+						<div class="box">S</div>
+						
+                        <div class="box">G</div>
+						<div class="box animationSix" data-word="Html">H</div>
+                        <div class="box">E</div>
+                        <div class="box">L</div>
+						<div class="box">N</div>
+						<div class="box">I</div>
+						<div class="box">E</div>
+						<div class="box">K</div>
+                        <div class="box animationTwo" data-word="Graphic">G</div>
+						
+                        <div class="box">C</div>
+						<div class="box animationSix" data-word="Html">T</div>
+						<div class="box animationFive" data-word="Visual">V</div>
+						<div class="box animationFive" data-word="Visual">I</div>
+						<div class="box animationFive" data-word="Visual">S</div>
+						<div class="box animationFive" data-word="Visual">U</div>
+						<div class="box animationFive" data-word="Visual">A</div>
+						<div class="box animationFive" data-word="Visual">L</div>
+						<div class="box animationTwo" data-word="Graphic">R</div>
+						
+                        <div class="box">X</div>
+						<div class="box animationSix" data-word="Html">M</div>
+						<div class="box animationThree" data-word="Typo">T</div>
+                        <div class="box">C</div>
+                        <div class="box">F</div>
+                        <div class="box">O</div>
+                        <div class="box">C</div>
+						<div class="box">D</div>
+						<div class="box animationTwo" data-word="Graphic">A</div>
+						
+						<div class="box">G</div>
+						<div class="box animationSix" data-word="Html">L</div>
+						<div class="box animationThree" data-word="Typo">Y</div>
+                        <div class="box">X</div>
+                        <div class="box">L</div>
+                        <div class="box animationSeven" data-word="CSS">C</div>
+						<div class="box animationSeven" data-word="CSS">S</div>
+						<div class="box animationSeven" data-word="CSS">S</div>
+						<div class="box animationTwo" data-word="Graphic">P</div>
+						
+						<div class="box animationOne" data-word="UI">U</div>
+                        <div class="box">A</div>
+						<div class="box animationThree" data-word="Typo">P</div>
+                        <div class="box">K</div>
+                        <div class="box">N</div>
+                        <div class="box">G</div>
+                        <div class="box animationFour" data-word="UX">U</div>
+                        <div class="box">C</div>
+                        <div class="box animationTwo" data-word="Graphic">H</div>
+						
+                        <div class="box animationOne" data-word="UI">I</div>
+						<div class="box">C</div>
+						<div class="box animationThree" data-word="Typo">O</div>
+						<div class="box">E</div>
+						<div class="box">S</div>
+						<div class="box">I</div>
+						<div class="box animationFour" data-word="UX">X</div>
+						<div class="box">N</div>
+						<div class="box animationTwo" data-word="Graphic">I</div>
+						
+						<div class="box">L</div>
+						<div class="box">F</div>
+                        <a href="http://www.imsagar.me/deepashre/#skills">
+                            <div class="box skillsBlock">S</div>
+                        </a>
+                        <a href="http://www.imsagar.me/deepashre/#skills">
+                            <div class="box skillsBlock">K</div>
+                        </a>
+                        <a href="http://www.imsagar.me/deepashre/#skills">
+                            <div class="box skillsBlock">I</div>
+                        </a>
+                        <a href="http://www.imsagar.me/deepashre/#skills">
+                            <div class="box skillsBlock">L</div>
+                        </a>
+                        <a href="http://www.imsagar.me/deepashre/#skills">
+                            <div class="box skillsBlock">L</div>
+                        </a>
+                        <a href="http://www.imsagar.me/deepashre/#skills">
+                            <div class="box skillsBlock">S</div>
+                        </a>
+						<div class="box animationTwo" data-word="Graphic">C</div>
+						
+                        <div class="box animationEight" data-word="Design">D</div>
+                        <div class="box animationEight" data-word="Design">E</div>
+                        <div class="box animationEight" data-word="Design">S</div>
+                        <div class="box animationEight" data-word="Design">I</div>
+                        <div class="box animationEight" data-word="Design">G</div>
+                        <div class="box animationEight" data-word="Design">N</div>
+                        <div class="box">E</div>
+					    <div class="box">S</div>
+                        <div class="box">K</div>
+
+                    </div>
+                    <div id="listContainer">
+                        <h2>Word Search</h2>
+                        <ul id="list">
+                           <li>Branding</li>
+                            <li>HTML</li>
+                            <li>Visual</li>
+                            <li>Graphic</li>
+                            <li>Typo</li>
+                            <li>CSS</li>
+							<li>UI</li>
+							<li>UX</li>
+							<li>Design</li>
+
+                        </ul>
+                        <div id="restart">
+                            Restart Game
+                        </div>
+                    </div>
+                </div>
+
+
+            
+            </section>
+ <a id="moveDown">
+        <div class="botmAarroBlock"></div>
+    </a>
+    <div class="notification">
+   <span>Yeah, you found all the Skills, Let's Explore more...</span>
+   </div> 
+        </div>
+
+      
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                    
+                        <div style="clear:both;"></div>
+                        <div id="portfolio">
+                            <div class="tile scale-anm web all">
+                                <img src="images/portFolioIcon.png" width="30" height="29" class="portFolioIcon">
+                                <h3><span class="portHead">Team Space Roadmap</span><span class="portTail">Dekstop App</span></h3>
+                                <img src="images/porfFolio01.jpg" alt="" />
+                            </div>
+                            <div class="tile scale-anm bcards all">
+                                <img src="images/portFolioIcon.png" width="30" height="29" class="portFolioIcon">
+                                <h3><span class="portHead">Natyapedia </span><span class="portTail">Mobile App</span></h3>
+                                <img src="images/porfFolio02.jpg" alt="" />
+                            </div>
+                            <div class="tile scale-anm web all">
+                                <img src="images/portFolioIcon.png" width="30" height="29" class="portFolioIcon">
+                                <h3><span class="portHead">Digital Manufacturing</span> <span class="portTail">Campaign</span></h3>
+                                <img src="images/porfFolio03.jpg" alt="" />
+                            </div>
+                            <div class="tile scale-anm web all">
+                                <img src="images/portFolioIcon.png" width="30" height="29" class="portFolioIcon">
+                                <h3><span class="portHead">Manoved</span> <span class="portTail">Branding</span></h3>
+                                <img src="images/porfFolio04.jpg" alt="" />
+                            </div>
+                            <div class="tile scale-anm flyers all">
+                                <img src="images/portFolioIcon.png" width="30" height="29" class="portFolioIcon">
+                                <h3><span class="portHead">Motoginie</span> <span class="portTail">Branding</span></h3>
+                                <img src="images/porfFolio05.jpg" alt="" />
+                            </div>
+                            <div class="tile scale-anm bcards all">
+                                <img src="images/portFolioIcon.png" width="30" height="29" class="portFolioIcon">
+                                <h3><span class="portHead">Cloudlock</span> <span class="portTail">Graphics Design</span></h3>
+                                <img src="images/porfFolio01.jpg" alt="" />
+                            </div>
+
+                        </div>
+
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            </div>
+             <a id="moveDown">
+        <div class="botmAarroBlock"></div>
+    </a>
+        </div>
+        <!-- <div class="section">
+            <div class="container">
+                <div class="row" style="text-align:-webkit-center;margin-left: 85px !important;">
+                            <div id="main-1">
+                        <div class="box "></div>
+                        <div class="box "></div>
+                        <div class="box "></div>
+                        <div class="box "></div>
+                        <div class="box "></div>
+                        <div class="box "></div>
+                        <div class="box "></div>
+                        <div class="box "></div>
+                        <div class="box"></div>
+                        <div class="box photoShop">P</div>
+                        <div class="box "></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box "></div>  
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                         <div class="box"></div>
+                        <!-- 
+                        <div class="box "></div>  
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                         <div class="box"></div>       
+                        <div class="box"></div>
+                         <div class="box skillsCross">A</div>       
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box photoShop">H</div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                         <div class="box"></div> 
+                        <div class="box"></div>
+                         <div class="box"></div>       
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                         <div class="box"></div>
+                         <div class="box"></div>       
+                        <div class="box"></div>
+            <!-- 
+                         <div class="box"></div>       
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box skillsCross">X</div>
+                         <div class="box"></div>
+                        <div class="box"></div>
+                         <div class="box photoShop">O</div>       
+                        <div class="box"></div>
+                        <div class="box"></div>
+                         <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                         <div class="box"></div>
+                        <div class="box"></div>
+                         <div class="box"></div>  
+                        <div class="box"></div>
+                        <div class="box"></div>
+                         <div class="box"></div>
+                       <!-- 
+                         <div class="box"></div>       
+                        <div class="box"></div>
+                         <div class="box"></div>       
+                        <div class="box"></div>
+                         <div class="box"></div>       
+                        <div class="box"></div>
+                        <div class="box skillsCross">U</div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box photoShop">T</div>
+                        <div class="box skillsCross">A</div>
+                        <div class="box skillsCross">F</div>
+                        <div class="box skillsCross">T</div>
+                        <div class="box skillsCross">E</div>
+                        <div class="box skillsCross">R</div>
+                        <div class="box skillsCross">E</div>
+                        <div class="box skillsCross">F</div>
+                        <div class="box skillsCross">F</div>
+                        <div class="box skillsCross">E</div>
+                        <div class="box skillsCross">C</div>
+                        <div class="box skillsCross">T</div>
+                        <div class="box skillsCross">S</div>
+                        <!-- -
+                        <div class="box skillsCross">I</div>
+                        <div class="box skillsCross">L</div>
+                        <div class="box skillsCross">L</div>
+                        <div class="box skillsCross">U</div>
+                        <div class="box skillsCross">S</div>
+                        <div class="box skillsCross">T</div>
+                        <div class="box skillsCross">R</div>
+                        <div class="box skillsCross">A</div>
+                        <div class="box skillsCross">T</div>
+                        <div class="box photoShop">O</div>
+                        <div class="box skillsCross">R</div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <!-- 
+                         <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box skillsCross">E</div>
+                        <div class="box"></div>
+                        <div class="box skillsCross">C</div>
+                        <div class="box photoShop">S</div>
+                        <div class="box skillsCross">S</div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <!-- 
+                         <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box photoShop">H</div>
+                        <div class="box skillsCross">T</div>
+                        <div class="box skillsCross">M</div>
+                        <div class="box skillsCross">L</div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <!-- 
+                         <div class="box"></div>
+                        <div class="box skillsCross">I</div>
+                        <div class="box skillsCross">N</div>
+                        <div class="box skillsCross">D</div>
+                        <div class="box skillsCross">E</div>
+                        <div class="box skillsCross">S</div>
+                        <div class="box skillsCross">I</div>
+                        <div class="box skillsCross">G</div>
+                        <div class="box skillsCross">N</div>
+                        <div class="box photoShop">O</div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <!-- 
+                         <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box photoShop">P</div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                                <div id="listContainer">
+                                    <h2>Word Search</h2>
+                                    <ul id="list">
+                                        <li>Branding</li>
+                                        <li>Ux</li>
+                                        <li>Visual</li>
+                                        <li>About</li>
+                                        <li>Typo</li>
+                                        <li>Designer</li>
+                                        <li>Graphic</li>
+                                        <li>Ui</li>
+
+                                    </ul>
+                                    <div id="restart">
+                                        Restart Game
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+                   <a id="moveDown">
+        <div class="botmAarroBlock"></div>
+    </a>
+            </div>
+
+        </div>-->
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="clearfix " id="aboutMeSectionHome">
+                       
+                            <div class="mainContainer clearfix vertical-center">
+                                <div class="puzzleBlock text-center">
+                                    <h2> DEEPASHREe</h2>
+                                    <p>Visual Designer<br> @ Zensar Technologies<br> 5 years Exp<br> +91 8425843399<br> kdeepashree91@gmail.com<br>
+                                        <img src="images/beIcon.png"></p>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+               <a id="moveUp">
+        <div class="botmAarroBlockLast"></div>
+    </a>
+        </div> 
+    </div>
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="js/jQuery.mousetip.js"></script>
+        
+    <script type="text/javascript" src="js/fullpage.fadingEffect.limited.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#myContainer').fullpage({
+                sectionsColor: ['#fafafa', '#fafafa', '#fafafa'],
+                anchors: ['homePage', 'portfolioD', 'skills', 'aboutMe'],
+                menu: '#menu',
+                slidesNavigation: true,
+                easingcss3: 'cubic-bezier(0.005, 0.005, 1.275)',
+                navigation: true,
+                navigationPosition: 'right',
+                navigationTooltips: ['HOME', 'PORTFOLIO', 'ABOUT'],
+
+           
+            });
+
+            $('.notification').hide();
+
+            $('#turnOn').click(function() {
+                $.fn.fullpage.fadingEffect.turnOn();
+            });
+
+            $('#turnOff').click(function() {
+                $.fn.fullpage.fadingEffect.turnOff();
+            });
+
+            $('.branding').hover(function() {
+
+                $('.branding .b').addClass('brandingColor');
+            }, function() {
+                $('.branding .b').removeClass('brandingColor');
+            });
+            $('.type').hover(function() {
+                $('.type .t').addClass('typoColor');
+            }, function() {
+                $('.type .t').removeClass('typoColor');
+            });
+
+            $('.ux').hover(function() {
+                $('.ux .u').addClass('uxColor');
+            }, function() {
+                $('.ux .u').removeClass('uxColor');
+            });
+            $('.vsl').hover(function() {
+                $('.vsl .v').addClass('vslColor');
+            }, function() {
+                $('.vsl .v').removeClass('vslColor');
+            });
+            $('.aboutMe').hover(function() {
+                $('.aboutMe .a').addClass('aboutColor');
+
+            }, function() {
+                $('.aboutMe .a').removeClass('aboutColor');
+            });
+            $('.desgner').hover(function() {
+                $('.desgner .d').addClass('desgnerColor');
+            }, function() {
+                $('.desgner .d').removeClass('desgnerColor');
+            });
+
+            FastClick.attach(document.body);
+
+            var wordsToFind = $('#list li').length,
+                colors = ['blue', 'green', 'yellow', 'red', 'purple', 'brown', 'CadetBlue ', 'Coral','tomato'],
+                found = 0,
+                number = 0,
+                notArr = ['hello'],
+                clicking = false;
+
+            $('#restart').click(function() {
+                $('.box').attr('class', 'box');
+                $('#list li').removeClass('found');
+                $('#restart').hide();
+                found = 0;
+            });
+
+            $('#grid').mousedown(function() {
+                clicking = true;
+            });
+
+            $('#grid').mouseup(function() {
+                clicking = false;
+                $('.box').removeClass('highlight');
+            })
+            $(document).on('click', '#moveDown', function() {
+                $.fn.fullpage.moveSectionDown();
+            });
+
+            
+             $(document).on('click', '#moveUp', function() {
+                $.fn.fullpage.moveSectionUp();
+            });
+            $('.box').mouseover().mouseout(function() {
+                if (clicking) {
+                    // Toggle highlight to box on click
+
+                    $(this).toggleClass('highlight');
+                    var word = $(this).attr('data-word') // Get word attribute from clicked box.
+                        if(word !=undefined){
+                        for(var i=0;i<notArr.length;i++){
+                            if(word == notArr[i]){
+                                break;
+                            }
+                            if(i == notArr.length-1){
+                                notArr.push(word);
+                            }
+                        }
+                        wordLen = word.length // How long is the word.
+
+                    $box = $('.box[data-word="' + word + '"]'); // Get all box's with word attribute.
+                    if ($('.box[data-word="' + word + '"].highlight').length == wordLen-1) {
+                        // Word is fully highlighted, remove highlight and add class fount-colorArray
+                     
+                        if(found > 10){
+                            found = found-10;
+                        }
+                        if($box.removeClass('highlight').addClass('found-' + colors[found])){
+                            number++;
+                        }
+                        // Add found class to the list item that contains "word"
+                        $('li:contains("' + word + '")').addClass('found');
+                        $('.box').removeClass('highlight');
+                        found++;
+                    }
+
+                    
+                    if (notArr.length == 10) {
+                        $('.notification').show();
+                        setTimeout(function(){ 
+                     //   alert('Cool! Found out the all design skills, lets have a look at Technical Skillls');
+                        $.fn.fullpage.moveTo('portfolioD');
+                        $('.box').removeClass('highlight');
+                        $('.notification').hide();
+                       location.reload();
+                        }, 5000);
+                      
+                    }
+
+                }
+                }
+            });
+
+            $(function() {
+                var selectedClass = "";
+                $(".fil-cat").click(function() {
+                    selectedClass = $(this).attr("data-rel");
+                    $("#portfolio").fadeTo(100, 0.1);
+                    $("#portfolio div").not("." + selectedClass).fadeOut().removeClass('scale-anm');
+                    setTimeout(function() {
+                        $("." + selectedClass).fadeIn().addClass('scale-anm');
+                       $("#portfolio").fadeTo(300, 1);
+                    }, 300);
+
+                });
+            });
+        $(function() {
+                $('div').mousetip('.tip',20,30);
+});
+        });
+    </script>
+</body>
+
+</html>
